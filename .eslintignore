@@ -1,0 +1,3 @@
+app/Resources/assets/translations/*
+ci/*
+webpack.config.js

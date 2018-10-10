@@ -1,0 +1,37 @@
+{
+  "name": "rmwc-material",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack -w",
+    "start": "webpack-dev-server",
+    "clean": "rm -rf public/compiled"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "rmwc": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-coffreo": "git+ssh://git@git.coffreo.com:9922/coffreo-toolbox/babel-preset.git",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.3.0",
+    "eslint-config-coffreo": "git+ssh://git@git.coffreo.com:9922/coffreo-toolbox/eslint-config.git",
+    "eslint-loader": "^1.9.0",
+    "expose-loader": "^0.7.5",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.3",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
