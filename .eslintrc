@@ -1,18 +1,13 @@
 {
-  "extends": ["coffreo"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
   "rules": {
-    "no-console": "off",
-    "import/no-named-as-default": 0,
-    "no-param-reassign": [2, { "props": false }],
-    "no-restricted-syntax": ["error", "WithStatement"],
-    "no-underscore-dangle": "off",
-    "jsx-a11y/label-has-for": "off",
-    "function-paren-newline": "off",
-    "react/jsx-no-bind": [2, {
-      "ignoreRefs": true,
-      "allowArrowFunctions": true,
-      "allowBind": true
-    }],
-    "react/forbid-prop-types": 0
+    "semi": 2
   }
 }
