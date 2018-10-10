@@ -1,4 +1,4 @@
-# RMWC Material
+# RMWC React
 
 Use a React Wrapper for Material (Web) Components. This is just a test to implement RMWC in React (16) with Webpack (3) an how use this wrapper in components.
 
