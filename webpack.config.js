@@ -12,6 +12,7 @@ const PATHS = {
 };
 
 module.exports = {
+  mode: 'development',
   entry: {
     vendors: ['react'],
     index: path.join(PATHS.assets, 'index.js'),
