@@ -1,6 +1,6 @@
 {
   "name": "rmwc-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use a React Wrapper for Material (Web) Components",
   "repository": {
     "type": "git",
