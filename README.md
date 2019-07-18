@@ -16,6 +16,6 @@ A React (15 / 16) wrapper for the official Material Design (Web) Components v0.4
 ```
 git clone https://github.com/arnaudfl/rmwc-react.git
 cd rmwc-react
-npm install
-npm start
+make install
+make start
 ```

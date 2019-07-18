@@ -1,6 +1,6 @@
 {
   "name": "rmwc-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use a React Wrapper for Material (Web) Components",
   "repository": {
     "type": "git",
@@ -8,11 +8,6 @@
   },
   "author": "Arnaud F.",
   "license": "MIT",
-  "scripts": {
-    "dev": "webpack -w",
-    "start": "webpack-dev-server",
-    "clean": "rm -rf public/compiled"
-  },
   "dependencies": {
     "path": "^0.12.7",
     "react": "^16.3.2",
