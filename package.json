@@ -1,6 +1,6 @@
 {
   "name": "rmwc-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use a React Wrapper for Material (Web) Components",
   "repository": {
     "type": "git",
@@ -8,42 +8,36 @@
   },
   "author": "Arnaud F.",
   "license": "MIT",
-  "scripts": {
-    "dev": "webpack -w",
-    "start": "webpack-dev-server",
-    "clean": "rm -rf public/compiled"
-  },
   "dependencies": {
     "path": "^0.12.7",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "rmwc": "^3.0.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "rmwc": "^5.5.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.2",
-    "babel-loader": "^7.1.4",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-es2015-parameters": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
-    "eslint": "^4.3.0",
-    "eslint-loader": "^1.9.0",
+    "eslint": "^6.0.1",
+    "eslint-loader": "^2.2.1",
     "expose-loader": "^0.7.5",
-    "extract-loader": "^2.0.1",
+    "extract-loader": "^3.1.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^1.1.11",
-    "node-sass": "^4.8.3",
-    "resolve-url-loader": "^2.3.0",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": ">=3.1.11"
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }

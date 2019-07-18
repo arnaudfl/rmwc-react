@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Grid, GridCell } from 'rmwc/Grid';
-import { Button, ButtonIcon } from 'rmwc/Button';
+import { Grid, GridCell } from '@rmwc/grid';
+import { Button, ButtonIcon } from '@rmwc/button';
 import {
   Dialog,
   DialogTitle,
   DialogContent,
   DialogActions,
   DialogButton
-} from 'rmwc/Dialog';
+} from '@rmwc/dialog';
 import logo from './logo.svg';
 import './App.scss';
 
